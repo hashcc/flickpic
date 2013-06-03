@@ -1,0 +1,60 @@
+/* ここからページ装飾要素（コード以外の部分） */
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+background-color: #eee;
+overflow-x: hidden;
+}
+
+h1,h2,p{
+padding: 7px 10px;
+}
+
+h1{
+font-size: 170%;
+word-spacing: -2px;
+}
+
+h2{
+font-size: 110%;
+line-height: 130%;
+}
+
+code{
+display: block;
+width: 280px;
+padding: 10px;
+margin: 5px 10px;
+background-color: #ccc;
+border: 1px dashed #444;
+}
+
+/* ここからコード部分 */
+
+div.flickpic{
+max-height: 320px;
+padding: 15px 0px 20px 20px;
+margin: 10px 0px;
+overflow-x: scroll;
+overflow-y: hidden;
+overflow-scrolling: touch;
+-webkit-overflow-scrolling: touch;
+background-color: #bbb;
+box-shadow: 0px 0px 4px 0px #111 inset;
+border: solid #999;
+border-width: 1px 0px;
+}
+
+div.flickpic img{
+display: block;
+border: 1px solid #ddd;
+box-shadow: 2px 2px 4px 1px #999;
+}
+
+div.flickpic.xy{
+overflow: scroll;
+}
